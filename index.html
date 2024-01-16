@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Taskify</title>
+
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+      <link rel="icon" href="images/to-do-icon-image.png">
+
+
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+      <div class="container">
+            <div class="to-do-list-heading">
+                  <h1 style="display: flex;align-items: center;">Taskify</h1>
+                  <img src="images/to-do-icon-image.png" alt="to-do-list-image">
+            </div>
+            <div class="to-do-main-list">
+                  <div class="row">
+                        <input style="padding: 1% 1%;font-family: 'Poppins', sans-serif;padding-left: 2%;" type="text"
+                              id="input-box" placeholder="Add new task...">
+
+                        <button style="border-radius: 15px;
+                        border: solid black;
+                        border-width: 0.5px;
+                        padding: 1% 1%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2%;width: 100px;
+                        font-family: 'Poppins', sans-serif;
+                        background-color: rgba(155, 126, 228, 0.549);" onclick="addTask()">Add Task</button>
+                  </div>
+
+                  <ul id="list-container">
+                        
+                  </ul>
+
+
+
+            </div>
+
+      </div>
+</body>
+
+</html>
